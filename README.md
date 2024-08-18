@@ -10,3 +10,8 @@ Date                                                               | The date an
 Fremont Bridge Sidewalks, south of N 34th St                       | Total of both sidewalks                                                                              | fremont_bridge    | Number
 Fremont Bridge Sidewalks, south of N 34th St Cyclist West Sidewalk | The total number of bicyclists traveling on the West sidewalk in one hour as recorded by the sensor. | fremont_bridge_nb | Number
 Fremont Bridge Sidewalks, south of N 34th St Cyclist East Sidewalk | The total number of bicyclists traveling on the East sidewalk in one hour as recorded by the sensor. | fremont_bridge_sb | Number
+
+## Executive Summary
+
+### Data Cleaning Steps
+I first parsed the dates to convert the column into datetime by using index_col ='Date', parse_dates=True when reading in the CSV. The original column was indexed by the row number and changing it allows it to be idexed ny the date itself. The dates originally were just strings. Parsing the column allows for the dates to be manipulated and used to explore the data. 
