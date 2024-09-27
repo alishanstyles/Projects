@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # Fremont-Bridge-Bicycle-Counter
-# Ising-Model
-# Ising-Model
-# Ising-Model
 # Coursera-Work-
 =======
 # Fremont Bridge Bicycle Counter
